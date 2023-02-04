@@ -11,7 +11,7 @@ export default (req, res, next) => {
     } catch (error) {}
   } else {
     return res.status(403).json({
-      mssage: "Нет доступа",
+      message: "Нет доступа",
     });
   }
 };
